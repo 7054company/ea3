@@ -1,0 +1,16 @@
+#yx=$(timedatectl | grep "RTC time: " |  awk '{print " "  " " $4 }' )
+x=$(timedatectl | grep "RTC time: " | awk '{print " " "" $4 " " $5 $>
+d=+14d
+a=$(which apt)
+b=$(which yum)
+a1=$(echo "$a"x)
+echo $x
+echo $a1
+#faketime -f "$x"  $1 $2 $3
+#fake date
+#system = fake
+#ft grep real > bash
+#old need sec
+#faketime  $x  $a $b $1 $2 $3
+#faketime "  $x  " $a $b $1 $2 $3
+faketime "  $x  " $a1 $1 $2 $3
